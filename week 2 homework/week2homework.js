@@ -3,11 +3,11 @@ let PizzaPlace = "Antonio's Pizza Shop";
 let NumberOfToppings = 15;
 
 // print variables and their types
-console.log(`Pizza Place: {Antonio's pizza Shop}, Type: {typeof pizzaPlace}`);
-console.log(`Number of Toppings: {15}, Type: {typeof numberOfToppings}`);
+console.log(`Pizza Place: ${PizzaPlace}, Type: ${typeof PizzaPlace}`);
+console.log(`Number of Toppings: ${NumberOfToppings}, Type: ${typeof NumberOfToppings}`);
 
 // Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
-console.log(`Welcome to {Antonio's Pizza Shop}! We offer a variety of {15} Tasty toppings.`);
+console.log(`Welcome to ${PizzaPlace}! We offer a variety of ${NumberOfToppings} tasty toppings.`);
 
 // construct an if Statement
 if (numberOfToppings < 10) {
@@ -19,6 +19,6 @@ if (numberOfToppings < 10) {
 // loop to print even numbers
 let numberOfToppings = 10;
 
-for (let i =2: i <= numberOfToppings; i += 2) {
+for (let i =2; i <= numberOfToppings; i += 2) {
   console.log(i);
 }
